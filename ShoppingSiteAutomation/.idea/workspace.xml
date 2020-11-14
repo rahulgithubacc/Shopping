@@ -23,15 +23,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0156db18-7fb7-4d98-a516-719605f4e9c1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/Shoppinng.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/practice/shopping/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/practice/Shopping/AddToCart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/practice/shopping/AddToCart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/practice/Shopping/LogIn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/practice/shopping/LogIn.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/practice/Shopping/Registration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/practice/shopping/Registration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/practice/Shopping/AddToCart.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/practice/Shopping/AddToCart.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/practice/Shopping/LogIn.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/practice/Shopping/LogIn.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/practice/Shopping/Registration.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/practice/Shopping/Registration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/practice/shopping/AddToCart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/practice/shopping/AddToCart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/practice/shopping/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/practice/shopping/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/practice/shopping/AddToCart.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/practice/shopping/AddToCart.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/practice/shopping/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/practice/shopping/BaseTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/practice/shopping/LogIn.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/practice/shopping/LogIn.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/practice/shopping/Registration.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/practice/shopping/Registration.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +63,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java/com/practice" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/testng.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -76,7 +74,7 @@
       <recent name="C:\Projects\ShoppingSiteAutomation\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Regression">
+  <component name="RunManager" selected="TestNG.AddToCart">
     <configuration name="AddToCart" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ShoppingSiteAutomation" />
       <useClassPathOnly />
@@ -234,8 +232,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.C:/Projects/Shoppinng/ShoppingSiteAutomation/testng.xml" />
         <item itemvalue="TestNG.AddToCart" />
+        <item itemvalue="TestNG.C:/Projects/Shoppinng/ShoppingSiteAutomation/testng.xml" />
         <item itemvalue="TestNG.LogIn" />
         <item itemvalue="TestNG.Registration" />
         <item itemvalue="TestNG.DependsOnExample.firstMethod" />
@@ -263,6 +261,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="312" y="0" key="#Project_Structure" timestamp="1605154777941">
