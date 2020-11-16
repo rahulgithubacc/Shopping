@@ -23,23 +23,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0156db18-7fb7-4d98-a516-719605f4e9c1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/practice/common/BrowserFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/practice/common/BrowserType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/practice/pages/Authentication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/practice/pages/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drivers/geckodriver.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/drivers/chromedriver.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/practice/shopping/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/practice/shopping/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/practice/shopping/LogIn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/practice/shopping/LogInTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/practice/shopping/Registration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/practice/shopping/Registration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chromedriver.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/practice/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/practice/shopping/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/practice/shopping/BaseTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/practice/shopping/LogIn.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/practice/shopping/Registration.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/practice/shopping/Registration.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -296,22 +281,22 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="592" y="203" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1605232759843" />
-    <state width="1865" height="269" key="GridCell.Tab.0.bottom" timestamp="1605493884412">
+    <state width="1865" height="269" key="GridCell.Tab.0.bottom" timestamp="1605494340601">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1865" height="269" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1605493884412" />
-    <state width="1865" height="269" key="GridCell.Tab.0.center" timestamp="1605493884412">
+    <state width="1865" height="269" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1605494340601" />
+    <state width="1865" height="269" key="GridCell.Tab.0.center" timestamp="1605494340595">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1865" height="269" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1605493884412" />
-    <state width="1865" height="269" key="GridCell.Tab.0.left" timestamp="1605493884412">
+    <state width="1865" height="269" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1605494340595" />
+    <state width="1865" height="269" key="GridCell.Tab.0.left" timestamp="1605494340595">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1865" height="269" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1605493884412" />
-    <state width="1865" height="269" key="GridCell.Tab.0.right" timestamp="1605493884412">
+    <state width="1865" height="269" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1605494340595" />
+    <state width="1865" height="269" key="GridCell.Tab.0.right" timestamp="1605494340601">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1865" height="269" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1605493884412" />
+    <state width="1865" height="269" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1605494340601" />
     <state x="312" y="0" key="SettingsEditor" timestamp="1605403173236">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
