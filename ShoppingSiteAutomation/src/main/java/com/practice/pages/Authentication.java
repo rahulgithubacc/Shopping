@@ -1,19 +1,21 @@
-package com.practice.shopping;
+package com.practice.pages;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.testng.annotations.Test;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class LogIn extends BaseTest {
-    @Test
-    public void logInClick() {
-        String loginxpath = "//a[contains(text(),'Sign')]";
-        driver.findElement(By.xpath(loginxpath)).click();
+public class Authentication {
+    private WebDriver driver;
+    private WebDriverWait wait;
+
+    public Authentication(WebDriver driver, WebDriverWait wait) {
+        this.driver = driver;
+        this.wait = wait;
     }
 
-    @Test
-    public void login() {
+    public void signIn() {
         String login_email_xpath = "//input[@id = 'email']";
         String password_xpath = "//input[@id='passwd']";
         String button_xpath = "//button[@id='SubmitLogin']";
@@ -25,5 +27,10 @@ public class LogIn extends BaseTest {
         password.sendKeys("Rahul1996");
         button.click();
     }
-
+    public void registration() {
+        String reg_mail_xpath = "//input[@id='email_create']";
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(reg_mail_xpath)));
+        WebElement email = driver.findElement(By.xpath(reg_mail_xpath));
+        email.sendKeys("rahul_deshmukh_1@yopmail.com ");
+    }
 }

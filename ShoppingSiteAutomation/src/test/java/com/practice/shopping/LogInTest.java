@@ -4,8 +4,7 @@ import com.practice.pages.Authentication;
 import com.practice.pages.HomePage;
 import org.testng.annotations.Test;
 
-public class Registration extends BaseTest {
-
+public class LogInTest extends BaseTest {
     @Test
     public void logInClick() {
         HomePage homePage = new HomePage(this.driver);
@@ -13,9 +12,9 @@ public class Registration extends BaseTest {
     }
 
     @Test
-    public void registrationClick() {
-        Authentication authentication = new Authentication(this.driver, this.wait);
-        authentication.registration();
+    public void login() {
+        Authentication logInPage = new Authentication(this.driver, this.wait);
+        logInPage.signIn();
     }
 
 }

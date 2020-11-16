@@ -23,13 +23,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0156db18-7fb7-4d98-a516-719605f4e9c1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/practice/common/BrowserFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/practice/common/BrowserType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/practice/pages/Authentication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/practice/pages/HomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/drivers/geckodriver.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/practice/shopping/AddToCart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/practice/shopping/AddToCart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/drivers/chromedriver.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/practice/shopping/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/practice/shopping/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/practice/shopping/AddToCart.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/practice/shopping/AddToCart.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/practice/shopping/LogIn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/practice/shopping/LogInTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/practice/shopping/Registration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/practice/shopping/Registration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/chromedriver.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/practice/App.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/practice/shopping/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/practice/shopping/BaseTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/practice/shopping/LogIn.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/practice/shopping/LogIn.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/practice/shopping/LogIn.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/practice/shopping/Registration.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/practice/shopping/Registration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +49,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -54,12 +65,15 @@
     </option>
   </component>
   <component name="ProjectId" id="1kAicVcFrgRxoFo1dQW0kiNDKUo" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java/com/practice" />
@@ -70,11 +84,14 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Projects\Shopping\ShoppingSiteAutomation\src\main\resources\drivers" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Projects\ShoppingSiteAutomation\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.AddToCart">
+  <component name="RunManager" selected="TestNG.Regression">
     <configuration name="AddToCart" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ShoppingSiteAutomation" />
       <useClassPathOnly />
@@ -149,7 +166,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LogIn" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="LogInTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ShoppingSiteAutomation" />
       <useClassPathOnly />
       <extension name="coverage">
@@ -160,7 +177,7 @@
       </extension>
       <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="com.practice.Shopping" />
-      <option name="MAIN_CLASS_NAME" value="com.practice.shopping.LogIn" />
+      <option name="MAIN_CLASS_NAME" value="com.practice.shopping.LogInTest" />
       <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="CLASS" />
       <option name="VM_PARAMETERS" value="-ea -Dtestng.dtd.http=true" />
@@ -226,15 +243,15 @@
       <item itemvalue="TestNG.Regression" />
       <item itemvalue="TestNG.DependsOnExample.firstMethod" />
       <item itemvalue="TestNG.Registration" />
-      <item itemvalue="TestNG.LogIn" />
       <item itemvalue="TestNG.AddToCart" />
       <item itemvalue="TestNG.C:/Projects/Shoppinng/ShoppingSiteAutomation/testng.xml" />
+      <item itemvalue="TestNG.LogInTest" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.AddToCart" />
         <item itemvalue="TestNG.C:/Projects/Shoppinng/ShoppingSiteAutomation/testng.xml" />
-        <item itemvalue="TestNG.LogIn" />
+        <item itemvalue="TestNG.LogInTest" />
         <item itemvalue="TestNG.Registration" />
         <item itemvalue="TestNG.DependsOnExample.firstMethod" />
       </list>
@@ -263,43 +280,54 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="312" y="0" key="#Project_Structure" timestamp="1605154777941">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="312" y="0" key="#Project_Structure/0.0.1920.1050@0.0.1920.1050" timestamp="1605154777941" />
-    <state x="410" y="170" width="1099" height="769" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605232811557">
+    <state x="410" y="170" width="1099" height="769" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605403123478">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="410" y="170" width="1099" height="769" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1605232811557" />
+    <state x="410" y="170" width="1099" height="769" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1605403123478" />
     <state x="592" y="203" key="FileChooserDialogImpl" timestamp="1605232759843">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="592" y="203" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1605232759843" />
-    <state width="1865" height="269" key="GridCell.Tab.0.bottom" timestamp="1605235147848">
+    <state width="1865" height="269" key="GridCell.Tab.0.bottom" timestamp="1605493884412">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1865" height="269" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1605235147848" />
-    <state width="1865" height="269" key="GridCell.Tab.0.center" timestamp="1605235147847">
+    <state width="1865" height="269" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1605493884412" />
+    <state width="1865" height="269" key="GridCell.Tab.0.center" timestamp="1605493884412">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1865" height="269" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1605235147847" />
-    <state width="1865" height="269" key="GridCell.Tab.0.left" timestamp="1605235147845">
+    <state width="1865" height="269" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1605493884412" />
+    <state width="1865" height="269" key="GridCell.Tab.0.left" timestamp="1605493884412">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1865" height="269" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1605235147845" />
-    <state width="1865" height="269" key="GridCell.Tab.0.right" timestamp="1605235147848">
+    <state width="1865" height="269" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1605493884412" />
+    <state width="1865" height="269" key="GridCell.Tab.0.right" timestamp="1605493884412">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1865" height="269" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1605235147848" />
-    <state x="312" y="0" key="SettingsEditor" timestamp="1605232215073">
+    <state width="1865" height="269" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1605493884412" />
+    <state x="312" y="0" key="SettingsEditor" timestamp="1605403173236">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="312" y="0" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1605232215073" />
+    <state x="312" y="0" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1605403173236" />
     <state x="731" y="287" key="chooseDestDirectoryDialog" timestamp="1605154892422">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="731" y="287" key="chooseDestDirectoryDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1605154892422" />
+    <state x="493" y="106" key="new project wizard" timestamp="1605405384681">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="493" y="106" key="new project wizard/0.0.1920.1050@0.0.1920.1050" timestamp="1605405384681" />
+    <state x="704" y="224" key="refactoring.ChangeSignatureDialog" timestamp="1605490171484">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="704" y="224" key="refactoring.ChangeSignatureDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1605490171484" />
     <state x="532" y="239" key="run.anything.popup" timestamp="1605166131654">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
