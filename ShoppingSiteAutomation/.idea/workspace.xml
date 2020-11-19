@@ -23,12 +23,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0156db18-7fb7-4d98-a516-719605f4e9c1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/practice/pages/OrderItems.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/practice/common/Util.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/practice/pages/BasePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/practice/shopping/CheckBox.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/debug.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/pages/Authentication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/pages/AuthenticationPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/pages/OrderItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/pages/OrderItemsPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/practice/shopping/AddToCart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/practice/shopping/AddToCart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/practice/shopping/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/practice/shopping/BaseTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/practice/shopping/LogInTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/practice/shopping/LogInTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/practice/shopping/Registration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/practice/shopping/Registration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/practice/pages/Authentication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/practice/pages/OrderItems.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/practice/shopping/AddToCart.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/practice/shopping/AddToCart.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/practice/shopping/LogInTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/practice/shopping/LogInTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/practice/shopping/Registration.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/practice/shopping/Registration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,74 +95,35 @@
     </key>
   </component>
   <component name="RunManager" selected="TestNG.Regression">
-    <configuration name="AddToCart" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CheckBox" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ShoppingSiteAutomation" />
-      <useClassPathOnly />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.practice.shopping.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="com.practice.Shopping" />
-      <option name="MAIN_CLASS_NAME" value="com.practice.shopping.AddToCart" />
-      <option name="GROUP_NAME" value="" />
+      <option name="PACKAGE_NAME" value="com.practice.shopping" />
+      <option name="MAIN_CLASS_NAME" value="com.practice.shopping.CheckBox" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea -Dtestng.dtd.http=true" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C:/Projects/Shoppinng/ShoppingSiteAutomation/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CheckBox.check" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ShoppingSiteAutomation" />
-      <useClassPathOnly />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <option name="VM_PARAMETERS" value="-ea -Dtestng.dtd.http=true" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="PROPERTIES_FILE" value="" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DependsOnExample.firstMethod" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="ShoppingSiteAutomation" />
-      <useClassPathOnly />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.practice.*" />
+          <option name="PATTERN" value="com.practice.shopping.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="com.practice" />
-      <option name="MAIN_CLASS_NAME" value="com.practice.DependsOnExample" />
-      <option name="METHOD_NAME" value="firstMethod" />
-      <option name="GROUP_NAME" value="" />
+      <option name="PACKAGE_NAME" value="com.practice.shopping" />
+      <option name="MAIN_CLASS_NAME" value="com.practice.shopping.CheckBox" />
+      <option name="METHOD_NAME" value="check" />
       <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" value="-ea -Dtestng.dtd.http=true" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
       <method v="2">
@@ -160,32 +132,40 @@
     </configuration>
     <configuration name="LogInTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ShoppingSiteAutomation" />
-      <useClassPathOnly />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.practice.shopping.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="com.practice.Shopping" />
+      <option name="PACKAGE_NAME" value="com.practice.shopping" />
       <option name="MAIN_CLASS_NAME" value="com.practice.shopping.LogInTest" />
-      <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea -Dtestng.dtd.http=true" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Registration" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="LogInTest.logInClick" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ShoppingSiteAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.practice.shopping.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.practice.shopping" />
+      <option name="MAIN_CLASS_NAME" value="com.practice.shopping.LogInTest" />
+      <option name="METHOD_NAME" value="logInClick" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Registration.logInClick" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ShoppingSiteAutomation" />
       <useClassPathOnly />
       <extension name="coverage">
@@ -194,17 +174,15 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="com.practice.Shopping" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="PACKAGE_NAME" value="com.practice.shopping" />
       <option name="MAIN_CLASS_NAME" value="com.practice.shopping.Registration" />
+      <option name="METHOD_NAME" value="logInClick" />
       <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea -Dtestng.dtd.http=true" />
-      <option name="PARAMETERS" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea " />
+      <option name="PARAMETERS" value="0" />
       <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
       <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
@@ -233,19 +211,19 @@
     </configuration>
     <list>
       <item itemvalue="TestNG.Regression" />
-      <item itemvalue="TestNG.DependsOnExample.firstMethod" />
-      <item itemvalue="TestNG.Registration" />
-      <item itemvalue="TestNG.AddToCart" />
-      <item itemvalue="TestNG.C:/Projects/Shoppinng/ShoppingSiteAutomation/testng.xml" />
+      <item itemvalue="TestNG.Registration.logInClick" />
+      <item itemvalue="TestNG.CheckBox.check" />
+      <item itemvalue="TestNG.CheckBox" />
+      <item itemvalue="TestNG.LogInTest.logInClick" />
       <item itemvalue="TestNG.LogInTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.AddToCart" />
-        <item itemvalue="TestNG.C:/Projects/Shoppinng/ShoppingSiteAutomation/testng.xml" />
         <item itemvalue="TestNG.LogInTest" />
-        <item itemvalue="TestNG.Registration" />
-        <item itemvalue="TestNG.DependsOnExample.firstMethod" />
+        <item itemvalue="TestNG.LogInTest.logInClick" />
+        <item itemvalue="TestNG.CheckBox" />
+        <item itemvalue="TestNG.CheckBox.check" />
+        <item itemvalue="TestNG.Registration.logInClick" />
       </list>
     </recent_temporary>
   </component>
@@ -284,26 +262,30 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="410" y="170" width="1099" height="769" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1605403123478" />
-    <state x="592" y="203" key="FileChooserDialogImpl" timestamp="1605232759843">
+    <state x="583" y="159" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1605577585455">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="592" y="203" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1605232759843" />
-    <state width="1865" height="269" key="GridCell.Tab.0.bottom" timestamp="1605498379228">
+    <state x="583" y="159" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1605577585455" />
+    <state x="592" y="203" key="FileChooserDialogImpl" timestamp="1605576511642">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1865" height="269" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1605498379228" />
-    <state width="1865" height="269" key="GridCell.Tab.0.center" timestamp="1605498379228">
+    <state x="592" y="203" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1605576511642" />
+    <state width="1865" height="292" key="GridCell.Tab.0.bottom" timestamp="1605711164452">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1865" height="269" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1605498379228" />
-    <state width="1865" height="269" key="GridCell.Tab.0.left" timestamp="1605498379228">
+    <state width="1865" height="292" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1605711164452" />
+    <state width="1865" height="292" key="GridCell.Tab.0.center" timestamp="1605711164452">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1865" height="269" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1605498379228" />
-    <state width="1865" height="269" key="GridCell.Tab.0.right" timestamp="1605498379228">
+    <state width="1865" height="292" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1605711164452" />
+    <state width="1865" height="292" key="GridCell.Tab.0.left" timestamp="1605711164452">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1865" height="269" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1605498379228" />
+    <state width="1865" height="292" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1605711164452" />
+    <state width="1865" height="292" key="GridCell.Tab.0.right" timestamp="1605711164452">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1865" height="292" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1605711164452" />
     <state x="374" y="95" key="Maven.ArtifactSearchDialog" timestamp="1605497292719">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>

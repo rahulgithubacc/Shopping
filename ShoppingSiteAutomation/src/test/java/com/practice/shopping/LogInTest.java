@@ -1,6 +1,6 @@
 package com.practice.shopping;
 
-import com.practice.pages.Authentication;
+import com.practice.pages.AuthenticationPage;
 import com.practice.pages.HomePage;
 import org.testng.annotations.Test;
 
@@ -13,8 +13,8 @@ public class LogInTest extends BaseTest {
 
     @Test
     public void login() {
-        Authentication logInPage = new Authentication(this.driver, this.wait);
-        logInPage.signIn();
+        AuthenticationPage logInPage = new AuthenticationPage(driver);
+        logInPage.signIn("rahul_deshmukh_1@yopmail.com", "Rahul1996");
     }
 
 }

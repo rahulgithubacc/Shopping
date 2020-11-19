@@ -8,7 +8,7 @@
             <class name="com.practice.shopping.Registration">
                 <methods>
                     <include name="logInClick"/>
-                    <include name="registration"/>
+                    <include name="registrationClick"/>
                 </methods>
             </class>
         </classes>
@@ -16,7 +16,6 @@
     <test verbose="2" preserve-order="true"
           name="C:/Projects/Shoppinng/ShoppingSiteAutomation/src/test/java/com/practice/Shopping/LogIn.java">
         <parameter name="browser" value="LOCAL_CHROME"/>
-        <parameter name="browser" value="LOCAL_FIREFOX"/>
         <classes>
             <class name="com.practice.shopping.LogInTest">
                 <methods>

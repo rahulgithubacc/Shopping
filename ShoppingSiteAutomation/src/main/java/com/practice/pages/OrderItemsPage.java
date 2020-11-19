@@ -4,9 +4,9 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-public class OrderItems {
+public class OrderItemsPage {
     private WebDriver driver;
-    public OrderItems(WebDriver driver) {
+    public OrderItemsPage(WebDriver driver) {
         this.driver = driver;
     }
     public void order() {
